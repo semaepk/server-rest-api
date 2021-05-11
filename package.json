@@ -1,0 +1,26 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "Node rest api",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "rest",
+    "api"
+  ],
+  "author": "Semaep.k",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "mongoose": "^5.12.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
